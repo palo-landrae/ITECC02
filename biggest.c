@@ -9,9 +9,9 @@ int main(){
 	printf("Enter third number: ");
 	scanf("%d", &c);
 
-	if (a>b && a>c)
+	if (a>=b && a>=c)
 		biggest = a;
-	else if (b>a && b>c)
+	else if (b>=a && b>=c)
 		biggest = b;
 	else
 		biggest = c;
